@@ -22,3 +22,17 @@ header {
     font-size: 16px;
     transition: background-color 0.5s ease-in-out;
 }
+
+#home:hover, #products:hover, #accessories:hover, #frogs:hover {
+    background-color: #fac9ba;
+    opacity: 30%;
+}
+
+#search {
+    opacity: 0.8;
+    border-style: solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+}
