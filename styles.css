@@ -60,3 +60,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
+#Frog_Construction {
+    align-items: center;
+}
