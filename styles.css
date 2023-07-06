@@ -36,3 +36,27 @@ header {
     height: 40px;
     margin: 10px;
 }
+
+.sale {
+    display: flex;
+    align-items: stretch;
+    height: 110px;
+    background-color: orangered;
+    border-radius: 50px;
+    opacity: 80%;
+    border-style: solid;
+    border-color: red;
+    justify-content: center;
+    margin-right: 70px; margin-left: 70px;
+    margin-top: 20px; margin-bottom: 20px;
+}
+
+footer {
+    background-color: #14AE5C;
+    border: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+}
