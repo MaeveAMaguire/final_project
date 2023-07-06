@@ -1,3 +1,9 @@
-h1 {
-    color: aqua;
+body {background-color:#FDF6C3}
+
+header {
+    background-color: #14AE5C;
+    border: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }
