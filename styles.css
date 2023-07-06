@@ -7,3 +7,18 @@ header {
     text-align: center;
     border-radius: 10px;
 }
+
+#navbar {
+    background-color: #FFD5C8;
+    border-radius: 20px;
+}
+
+
+#home, #products, #accessories, #frogs {
+    background-color:#FFD5C8;
+    width: 200px; height: 50px;
+    border: none;
+    color: rgb(223, 74, 213);
+    font-size: 16px;
+    transition: background-color 0.5s ease-in-out;
+}
