@@ -3,7 +3,7 @@ function myFunction() {
     let text;
     let firstname = prompt("What is the first initial of your first name? (no caps)");
     if (firstname == "a") firstname = "Hopscotch"
-    else if (firstname == "b") firstname = "Belle"
+    else if (firstname == "") firstname = "Belle"
     else if (firstname == "c") firstname = "Gidget"
     else if (firstname == "d") firstname = "Hibiscus"
     else if (firstname == "e") firstname = "Penelope"
@@ -28,6 +28,8 @@ function myFunction() {
     else if (firstname == "x") firstname = "Fredo"
     else if (firstname == "y") firstname = "Kermit"
     else if (firstname == "z") firstname = "Bubble"
+    else if (firstname == "") firstname = "Human"
+    else if (firstname == null) firstname = "Human"
     let secondname = prompt("What is the first initial of your second name? (no caps)");
     if (secondname == "a") secondname = " Hopsworth"
     else if (secondname == "b") secondname = " Webber"
@@ -55,5 +57,7 @@ function myFunction() {
     else if (secondname == "x") secondname = " Pilkington"
     else if (secondname == "y") secondname = " Smooth"
     else if (secondname == "z") secondname = " Longtongue"
+    else if (secondname == "" ) secondname = " Fleshhair"
+    else if (secondname == null) secondname = " Fleshhair"
     alert("Your frog name is " + firstname + secondname + "!")
 }

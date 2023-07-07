@@ -18,14 +18,21 @@ header {
     background-color:#FFD5C8;
     width: 200px; height: 50px;
     border: none;
+    border-radius: 20px;
     color: rgb(223, 74, 213);
     font-size: 16px;
     transition: background-color 0.5s ease-in-out;
 }
 
-#home:hover, #products:hover, #accessories:hover, #frogs:hover {
+#home:hover, #products:hover, #accessories:hover, #frogs:hover{
     background-color: #fac9ba;
     opacity: 30%;
+    border-radius: 20px;
+}
+
+#frog_button:hover {
+    background-color: yellowgreen;
+    opacity: 75%;
 }
 
 #search {
@@ -68,4 +75,6 @@ footer {
 #frog_button {
     background-color: yellowgreen;
     size: 200%;
+    border-radius: 15px;
+    padding: 8px;
 }
