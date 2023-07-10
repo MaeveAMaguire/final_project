@@ -54,14 +54,23 @@ header {
     display: flex;
     flex-direction: row;
     flex-shrink:inherit;
+    z-index: 2;
+}
+
+#box1 {
+    width: 1200px;
+    height: 200px;
+    background-color: aqua;
+    z-index: -1;
+    padding-bottom: 80px;
 }
 
 #frog_test {
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    width: 400px;
-    height: 250px;
+    width: 25%;
+    height: 25%;
 }
 
 #frog_test:hover {
