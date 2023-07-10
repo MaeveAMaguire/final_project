@@ -27,11 +27,14 @@ header {
     background-color: #FFD5C8;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+   flex-direction: row;
     flex-grow: 4;
-    justify-content: space-evenly;
+    
 }
 
+.row{
+
+}
 
 #home, #products, #accessories, #frogs {
     background-color:#FFD5C8;
@@ -49,32 +52,12 @@ header {
     border-radius: 20px;
 }
 
-row {
+.images {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-#box {
-    width: 25%;
-    height: 25%;
-    background-color: #14AE5C;
-    opacity: 0;
-    z-index: 1;
-    position: absolute;
-    display: inline;
-    
-}
-
-#box:hover {
-    width: 25.1%;
-    height: 39.5%;
-    background-color: yellowgreen;
-    opacity: 0.5;
-    transition: 2s;
-    padding-top: 20px;
-    display: inline;
+    z-index: -1;
 }
 
 #frog_test1 {
@@ -125,32 +108,23 @@ row {
 }
 
 .sale_button {
-    display: flex;
-    flex-direction: row;
-
-}
-
-#sale {
-    background-color: orangered;
+    margin-top: 2%;
+    margin-bottom: 2%;
+     background-color: orangered;
     border-radius: 50px;
     opacity: 80%;
     border-style: solid;
     border-color: red;
-    justify-content: center;
-    align-content: stretch;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#button_box {
-    width: 150px;
-    height: 100px;
-    background-color: #5ef8a6;
-    border: 1px solid 14AE5C;
-    border-radius: 20px;
-    padding-top: 10px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid green; 
+.sale_button:hover {
+    width: 100%;
+    transition: 2s;
 }
 
 footer {
@@ -174,6 +148,22 @@ footer {
     display: block;
     margin-left: 20%;
     margin-top: 1%;
+    z-index: 1;
+}
+
+#sad_frog {
+    position: absolute;
+    opacity: 1;
+    scale: 115%;
+    display: block;
+    margin-left: 20%;
+    margin-top: 1%;
+    z-index: -1;
+}
+
+#Frog_Construction:hover {
+    opacity: 0;
+    transition: 3s;
 }
 
 #error_message {
@@ -182,7 +172,6 @@ footer {
 
 #frog_button {
     background-color: yellowgreen;
-    size: 200%;
     border-radius: 15px;
-    padding: 8px;
-}
+    height: 50px;
+    margin-top: 5px;}
