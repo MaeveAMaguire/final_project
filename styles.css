@@ -64,6 +64,7 @@ row {
     z-index: 1;
     position: absolute;
     display: inline;
+    
 }
 
 #box:hover {
@@ -114,20 +115,6 @@ row {
     height: 115px;
 }
 
-.button_box {
-    width: 350px;
-    height: 250px;
-    background-color: #5ef8a6;
-    border: 1px solid 14AE5C;
-    border-radius: 20px;
-    padding-top: 10px;
-    margin: 5px;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid green; 
-    display: flex;
-}
-
 #search {
     opacity: 0.8;
     border-style: solid;
@@ -137,18 +124,33 @@ row {
     margin: 10px;
 }
 
-.sale {
+.sale_button {
     display: flex;
-    align-items: stretch;
-    height: 110px;
+    flex-direction: row;
+
+}
+
+#sale {
     background-color: orangered;
     border-radius: 50px;
     opacity: 80%;
     border-style: solid;
     border-color: red;
     justify-content: center;
-    margin-right: 70px; margin-left: 70px;
-    margin-top: 20px; margin-bottom: 20px;
+    align-content: stretch;
+}
+
+#button_box {
+    width: 150px;
+    height: 100px;
+    background-color: #5ef8a6;
+    border: 1px solid 14AE5C;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green; 
 }
 
 footer {
