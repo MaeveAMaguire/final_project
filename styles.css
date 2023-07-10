@@ -1,16 +1,35 @@
-body {background-color:#FDF6C3}
+body {
+    background-color:#FDF6C3;
+}
 
 header {
     background-color: #14AE5C;
-    border: 15px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
     border-radius: 10px;
+    border-color: rgb(154, 244, 154);
+
 }
 
-#navbar {
+#title {
+    color: white;
+    font-family:sans-serif;
+    font-size:xx-large;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(55, 204, 55);
+}
+
+.navbar {
     background-color: #FFD5C8;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: space-evenly;
 }
 
 
@@ -30,9 +49,47 @@ header {
     border-radius: 20px;
 }
 
+.row {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink:inherit;
+}
+
+#frog_test {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 400px;
+    height: 250px;
+}
+
+#frog_test:hover {
+    height: 350px;
+}
+
 #frog_button:hover {
     background-color: yellowgreen;
     opacity: 75%;
+}
+
+#frog_button {
+    width: 150px;
+    height: 115px;
+}
+
+.button_box {
+    width: 350px;
+    height: 250px;
+    background-color: #5ef8a6;
+    border: 1px solid 14AE5C;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green; 
 }
 
 #search {
@@ -68,8 +125,21 @@ footer {
     justify-content: space-evenly;
 }
 
+.error {
+    display: flex;
+    flex-direction: row;
+}
+
 #Frog_Construction {
-    opacity: 0.5;
+    opacity: 95%;
+    scale: 115%;
+    display: block;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+#error_message {
+    flex: auto;
 }
 
 #frog_button {
