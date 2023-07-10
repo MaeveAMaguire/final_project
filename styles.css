@@ -1,5 +1,5 @@
 body {
-    background-color:#6d6105;
+    background-color:#f3e9a1;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 .navbar {
     background-color: #FFD5C8;
     border-radius: 20px;
-    
+    justify-content: space-evenly;
 }
 
 #home, #products, #accessories, #frogs {
@@ -87,7 +87,7 @@ header {
 }
 
 #frog_button {
-    width: 150px;
+    width: 130px;
     height: 115px;
 }
 
@@ -95,7 +95,7 @@ header {
     opacity: 0.8;
     border-style: solid;
     border-radius: 30px;
-    width: 300px;
+    width: 250px;
     height: 40px;
     margin: 10px;
 }

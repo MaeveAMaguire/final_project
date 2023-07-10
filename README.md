@@ -6,3 +6,5 @@ https://maeveamaguire.github.io/final_project/ Site url
         <div id="button_box">
             <button onclick="myFunction()" id="frog_button">Find your frog name!</button>
         </div>
+
+                    <button onclick="myFunction()" id="frog_button">Find your frog name!</button>
