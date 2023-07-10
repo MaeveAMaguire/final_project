@@ -1,5 +1,5 @@
 body {
-    background-color:#FDF6C3;
+    background-color:#6d6105;
 }
 
 header {
@@ -26,14 +26,7 @@ header {
 .navbar {
     background-color: #FFD5C8;
     border-radius: 20px;
-    display: flex;
-   flex-direction: row;
-    flex-grow: 4;
     
-}
-
-.row{
-
 }
 
 #home, #products, #accessories, #frogs {
