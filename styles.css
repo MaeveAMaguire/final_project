@@ -49,32 +49,59 @@ header {
     border-radius: 20px;
 }
 
-.row {
+row {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
-    flex-shrink:inherit;
-    z-index: 2;
+    justify-content: space-evenly;
 }
 
-#box1 {
-    width: 1200px;
-    height: 200px;
-    background-color: aqua;
-    z-index: -1;
-    padding-bottom: 80px;
+#box {
+    width: 25%;
+    height: 25%;
+    background-color: #14AE5C;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    display: inline;
 }
 
-#frog_test {
+#box:hover {
+    width: 25.1%;
+    height: 39.5%;
+    background-color: yellowgreen;
+    opacity: 0.5;
+    transition: 2s;
+    padding-top: 20px;
+    display: inline;
+}
+
+#frog_test1 {
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
     width: 25%;
     height: 25%;
+    display: inline;
+    z-index: -1;
 }
 
-#frog_test:hover {
-    height: 350px;
+#frog_test2 {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+    height: 25%;
+    display: inline;
+}
+
+#frog_test3 {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+    height: 25%;
+    display: inline;
 }
 
 #frog_button:hover {
@@ -95,10 +122,10 @@ header {
     border-radius: 20px;
     padding-top: 10px;
     margin: 5px;
-    display: flex;
     justify-content: center;
     align-items: center;
     border: 3px solid green; 
+    display: flex;
 }
 
 #search {
