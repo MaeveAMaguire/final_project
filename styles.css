@@ -56,11 +56,12 @@ header {
 }
 
 .images {
-    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     z-index: -1;
+    height: 500px;
+    width: 1470px
 }
 
 #frog_test1,
