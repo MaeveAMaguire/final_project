@@ -153,6 +153,7 @@ footer {
 
 #error_message {
     flex: auto;
+    margin: auto;
 }
 
 #frog_button {
