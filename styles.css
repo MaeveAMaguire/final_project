@@ -68,7 +68,11 @@ header {
 #frog_test3 {
     width: 90%;
     height: 90%;
-    display: inline;
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
     border-style: solid;
     border-radius: 10px;
     border-color: #25de25;
