@@ -78,6 +78,10 @@ header {
     border-color: #25de25;
 }
 
+a{
+    width: 90%;
+    height: 90%;
+}
 
 #frog_button:hover {
     background-color: yellowgreen;
