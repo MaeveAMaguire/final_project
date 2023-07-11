@@ -1,24 +1,21 @@
 body {
-    background-color:#f3e9a1;
+    background-color: #f3e9a1;
 }
 
+
 header {
-    background-color: #14AE5C;
+    background-color: #25de25 ;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    border-top: solid;
-    border-right: solid;
-    border-left: solid;
-    border-radius: 10px;
     border-color: rgb(154, 244, 154);
 
 }
 
 #title {
     color: white;
-    font-family:sans-serif;
-    font-size:xx-large;
+    font-family: sans-serif;
+    font-size: xx-large;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(55, 204, 55);
 }
@@ -27,11 +24,20 @@ header {
     background-color: #FFD5C8;
     border-radius: 20px;
     justify-content: space-evenly;
+    border-style: solid;
+    border-color: #f2a58e;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#home, #products, #accessories, #frogs {
-    background-color:#FFD5C8;
-    width: 200px; height: 50px;
+#home,
+#products,
+#accessories,
+#frogs {
+    background-color: #FFD5C8;
+    width: 200px;
+    height: 50px;
     border: none;
     border-radius: 20px;
     color: rgb(223, 74, 213);
@@ -39,7 +45,10 @@ header {
     transition: background-color 0.5s ease-in-out;
 }
 
-#home:hover, #products:hover, #accessories:hover, #frogs:hover{
+#home:hover,
+#products:hover,
+#accessories:hover,
+#frogs:hover {
     background-color: #fac9ba;
     opacity: 30%;
     border-radius: 20px;
@@ -53,33 +62,17 @@ header {
     z-index: -1;
 }
 
-#frog_test1 {
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 25%;
-    height: 25%;
-    display: inline;
-    z-index: -1;
-}
-
-#frog_test2 {
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 25%;
-    height: 25%;
-    display: inline;
-}
-
+#frog_test1,
+#frog_test2,
 #frog_test3 {
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 25%;
-    height: 25%;
+    width: 90%;
+    height: 90%;
     display: inline;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #25de25;
 }
+
 
 #frog_button:hover {
     background-color: yellowgreen;
@@ -103,7 +96,7 @@ header {
 .sale_button {
     margin-top: 2%;
     margin-bottom: 2%;
-     background-color: orangered;
+    background-color: orangered;
     border-radius: 50px;
     opacity: 80%;
     border-style: solid;
@@ -121,11 +114,11 @@ header {
 }
 
 footer {
-    background-color: #14AE5C;
+    background-color: #25de25;
     border: 15px;
     padding: 10px;
     text-align: center;
-    border-radius: 10px; 
+    border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -167,4 +160,11 @@ footer {
     background-color: yellowgreen;
     border-radius: 15px;
     height: 50px;
-    margin-top: 5px;}
+    margin-top: 5px;
+}
+
+.product_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
