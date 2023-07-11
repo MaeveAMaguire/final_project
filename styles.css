@@ -99,7 +99,7 @@ header {
     margin-bottom: 2%;
     background-color: orangered;
     border-radius: 50px;
-    opacity: 80%;
+    opacity: 100%;
     border-style: solid;
     border-color: red;
     width: 50%;
@@ -111,6 +111,8 @@ header {
 
 .sale_button:hover {
     width: 100%;
+    background-color: #198754;
+    border-color: #25de25;
     transition: 2s;
 }
 
