@@ -126,10 +126,6 @@ a{
 }
 
 footer {
-    background-color: #25de25;
-    border: 15px;
-    padding: 10px;
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
