@@ -21,3 +21,5 @@ https://maeveamaguire.github.io/final_project/ Site url
         </nav> 
 
         This is the nav bar before I deleted it and replaced with a new dropdown
+
+        class="border border-5 border-success"
