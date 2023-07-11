@@ -133,7 +133,7 @@ footer {
     display: block;
     margin-left: 20%;
     margin-top: 1%;
-    z-index: 1;
+    z-index: 2;
 }
 
 #sad_frog {
@@ -143,7 +143,7 @@ footer {
     display: block;
     margin-left: 20%;
     margin-top: 1%;
-    z-index: -1;
+    z-index: 1;
 }
 
 #Frog_Construction:hover {
